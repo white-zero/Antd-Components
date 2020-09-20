@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import WrappedNormalLoginForm from './loginDemo'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <WrappedNormalLoginForm/>
   </React.StrictMode>,
   document.getElementById('root')
 );
