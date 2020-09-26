@@ -82,6 +82,8 @@ import {
         }
       };
     const validateToNextPassword = (rule, value, callback) => {
+
+      
         const { form } = props;
         if (value && confirmDirty) {
           form.validateFields(['confirm'], { force: true });
